@@ -1,0 +1,12 @@
+{
+  "model_name": "distilbert-base-multilingual-cased",
+  "dataset": "allocine",
+  "test_size": 400,
+  "accuracy": 0.505,
+  "precision": 0.6262626262626262,
+  "recall": 0.505,
+  "f1": 0.34859849980260554,
+  "avg_confidence": 0.5142222626507282,
+  "avg_confidence_correct": 0.5147068848704347,
+  "avg_confidence_wrong": 0.5137278500831488
+}

@@ -1,0 +1,47 @@
+{
+  "project_summary": {
+    "dataset": "Allociné (French movie reviews)",
+    "model": "DistilBERT-multilingual-cased",
+    "train_size": 2000,
+    "test_size": 400,
+    "training_time_seconds": 102.0807
+  },
+  "performance_metrics": {
+    "baseline": {
+      "model_name": "distilbert-base-multilingual-cased",
+      "dataset": "allocine",
+      "test_size": 400,
+      "accuracy": 0.535,
+      "precision": 0.5972222222222223,
+      "recall": 0.535,
+      "f1": 0.4464285714285714,
+      "avg_confidence": 0.5128565037250519,
+      "avg_confidence_correct": 0.511899389396204,
+      "avg_confidence_wrong": 0.5139576997808231,
+      "sota_gap": 43.94
+    },
+    "finetuned": {
+      "model_name": "distilbert-base-multilingual-cased",
+      "dataset": "allocine",
+      "train_size": 2000,
+      "test_size": 400,
+      "accuracy": 0.83,
+      "f1": 0.8266013871889025,
+      "precision": 0.8580729166666667,
+      "recall": 0.83,
+      "f1_negative": 0.8508771929824561,
+      "f1_positive": 0.8023255813953488,
+      "loss": 0.3983481526374817,
+      "training_loss": 0.5824595103188167,
+      "training_time": 102.0807,
+      "num_epochs": 3,
+      "learning_rate": 2e-05,
+      "batch_size": 32
+    },
+    "improvement": {
+      "accuracy_points": 29.499999999999993,
+      "f1_points": 38.01728157603311,
+      "relative_improvement_pct": 55.140186915887824
+    }
+  }
+}

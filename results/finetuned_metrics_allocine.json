@@ -1,0 +1,18 @@
+{
+  "model_name": "distilbert-base-multilingual-cased",
+  "dataset": "allocine",
+  "train_size": 2000,
+  "test_size": 400,
+  "accuracy": 0.8375,
+  "f1": 0.836246260431428,
+  "precision": 0.8481624758220502,
+  "recall": 0.8375,
+  "f1_negative": 0.8505747126436781,
+  "f1_positive": 0.821917808219178,
+  "loss": 0.3582318127155304,
+  "training_loss": 0.5522252037411645,
+  "training_time": 67.6217,
+  "num_epochs": 3,
+  "learning_rate": 2e-05,
+  "batch_size": 32
+}
